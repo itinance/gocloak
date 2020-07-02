@@ -46,7 +46,7 @@ There are a lot of backward incompatible changes:
 ### Importing
 
 ```go
-	import "github.com/Nerzal/gocloak/v6"
+	import "github.com/itinance/gocloak/v6"
 ```
 
 or v3 (latest release is v3.10.0):

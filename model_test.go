@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Nerzal/gocloak/v6"
+	"github.com/itinance/gocloak/v6"
 
 	"github.com/stretchr/testify/assert"
 )
