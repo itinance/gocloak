@@ -14,7 +14,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/segmentio/ksuid"
 
-	"github.com/Nerzal/gocloak/v6/pkg/jwx"
+	"github.com/itinance/gocloak/v6/pkg/jwx"
 )
 
 type gocloak struct {
@@ -33,8 +33,8 @@ const (
 )
 
 var (
-	authAdminRealms = makeURL("auth", "admin", "realms")
-	authRealms      = makeURL("auth", "realms")
+	authAdminRealms = makeURL("admin", "realms")
+	authRealms      = makeURL("realms")
 	tokenEndpoint   = makeURL("protocol", "openid-connect", "token")
 	logoutEndpoint  = makeURL("protocol", "openid-connect", "logout")
 	openIDConnect   = makeURL("protocol", "openid-connect")
